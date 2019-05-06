@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.column1 {
+    margin: 20px;
+    display: inline-block;
+    width: 90px;
+    height: 230px;
+    background-image: url("sourceimages/underweight.png");
+    background-size: cover;
+}
+
+.column2 {
+    margin: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 230px;
+    background-image: url("sourceimages/healthy.png");
+    background-size: cover;
+}
+
+.column3 {
+    margin: 20px;
+    display: inline-block;
+    width: 110px;
+    height: 230px;
+    background-image: url("sourceimages/overweight.png");
+    background-size: cover;
+}
+
+.column4 {
+    margin: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 230px;
+    background-image: url("sourceimages/obesity.png");
+    background-size: cover;
+}
+
+.column5 {
+    margin: 130px;
+    display: inline-block;
+    width: 80px;
+    height: 230px;
+    background-image: url("sourceimages/severe_obesity.png");
+    background-size: contain;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.imgResult {
+    width: 100px;
+    margin: auto;
+}
